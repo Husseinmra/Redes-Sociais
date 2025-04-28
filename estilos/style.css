@@ -40,6 +40,8 @@ iframe {
   left: 23px;
   width: 265px;
   height: 470px;
+  user-select: none;
+  pointer-events: none;
 }
 
 section#icones {
@@ -58,6 +60,6 @@ section#icones img {
 section#icones img:hover {
   border: 2px solid rgb(196, 196, 196);
   transition: transform 0.3s, border 0.1s;
-  transform: translate(10px);
+  transform: translate(-10px, -10px);
   box-sizing: border-box;
 }
